@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.container {
+    padding: 40px;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.header-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.map-icon {
+    color: #f1637c;
+    font-size: 20px;
+}
+
+.user-avatar {
+    border-radius: 100px;
+    height: 40px;
+    width: 40px;
+}
+
+.box {
+    background-color: #f5f6f6;
+    color: rgb(124, 122, 122);
+    height: 40px;
+    width: 250px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.search-section {
+    padding-top: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.setting-card {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-self: center;
+    height: 25px;
+    width: 30px;
+    color: rgb(206, 201, 201);
+}
+
+.subheading {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.destination-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.travel-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.popular-section {
+    display: flex;
+    justify-content: center;
+    overflow-x: auto;
+}
+
+.card {
+    height: 250px;
+    min-width: 250px;
+    flex-grow: 1;
+    border-radius: 25px;
+    color: white;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card2 {
+    background-image: url("https://images.unsplash.com/photo-1534800891164-a1d96b5114e7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8Y2VudHJhbCUyMHJvYWQlMjBlbmdsYW5kfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60");
+    background-size: cover;
+}
+
+.card1 {
+    background-image: url("https://images.unsplash.com/photo-1504432148082-46caf595add3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDJ8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60");
+    background-size: cover;
+}
+
+.atlas-text {
+    padding-left: 5px;
+    padding-right: 5px;
+    color: #f1637c;
+    background-color: white;
+    font-weight: lighter;
+    width: 60px;
+    display: flex;
+    justify-content: flex-end;
+    align-self: flex-end;
+}
+
+.selectedText {
+    color: #f1637c;
+    font-weight: bold;
+}
+
+.subhead {
+    font-weight: bold;
+}
+
+.news-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.newsText {
+    color: red;
+    background-color: pink;
+    height: 30px;
+    width: 75px;
+    padding: 3px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.navbar-card {
+    padding: 30px;
+    height: 50px;
+    width: 250px;
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    align-items: center;
+    border-radius: 30px;
+    flex-grow: 2;
+}
+
+.selectedIcon {
+    background-color: red;
+    border-radius: 100px;
+    height: 30px;
+    width: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.icon {
+    font-size: 20px;
+    color: #adadad;
+}
